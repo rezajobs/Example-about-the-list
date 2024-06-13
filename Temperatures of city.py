@@ -6,5 +6,8 @@ for city, temp in zip(list_city,temperatures):
     
     if temp< 15:
         print(f"The temperature in {city} is {temp}°C - ***warm clothes***")
+    elif temp>28:
+         print(f"The temperature in {city} is {temp}°C - ***Warning hot weather***")
+
     else:
         print(f"The temperature in {city} is {temp}°C")
